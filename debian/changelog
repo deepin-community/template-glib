@@ -1,0 +1,82 @@
+template-glib (3.34.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * Bump minimum meson to 0.50.0
+  * Build-Depend on debhelper-compat 12 and drop debian/compat
+  * Build-Depend on dh-sequence-gir and dh-sequence-gnome
+  * Bump Standards-Version to 4.4.0
+  * Upload to unstable
+
+ -- Jeremy Bicha <jbicha@debian.org>  Sat, 14 Sep 2019 19:28:16 -0400
+
+template-glib (3.32.0-1) experimental; urgency=medium
+
+  * New upstream release
+
+ -- Jeremy Bicha <jbicha@debian.org>  Wed, 13 Mar 2019 19:00:19 -0400
+
+template-glib (3.30.0-2) unstable; urgency=medium
+
+  * Add -Wl,-O1 to our LDFLAGS
+  * Bump Standards-Version to 4.3.0
+
+ -- Jeremy Bicha <jbicha@debian.org>  Thu, 27 Dec 2018 17:34:50 -0500
+
+template-glib (3.30.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * Add X-Ubuntu-Use-Langpack to opt in to Ubuntu language pack handling
+    (LP: #1779574)
+  * Bump Standards-Version to 4.2.1
+
+ -- Jeremy Bicha <jbicha@debian.org>  Wed, 05 Sep 2018 10:41:38 -0400
+
+template-glib (3.28.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * Release to unstable
+
+ -- Jeremy Bicha <jbicha@debian.org>  Tue, 13 Mar 2018 21:02:09 -0400
+
+template-glib (3.27.90-1) experimental; urgency=medium
+
+  * New upstream release
+  * Bump minimum meson to 0.40.1
+  * debian/libtemplate-glib-1.0-0.symbols: Add new symbols
+
+ -- Jeremy Bicha <jbicha@debian.org>  Mon, 05 Feb 2018 11:31:09 -0500
+
+template-glib (3.26.1-2) unstable; urgency=medium
+
+  * Update Vcs fields for migration to https://salsa.debian.org/
+  * Bump debhelper compat to 11
+
+ -- Jeremy Bicha <jbicha@debian.org>  Fri, 02 Feb 2018 15:37:27 -0500
+
+template-glib (3.26.1-1) unstable; urgency=medium
+
+  * New upstream release
+  * debian/watch: Only watch for stable releases
+  * Bump Standards-Version to 4.1.1
+
+ -- Jeremy Bicha <jbicha@debian.org>  Tue, 03 Oct 2017 17:54:14 -0400
+
+template-glib (3.26.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * Bump Standards-Version to 4.1.0
+
+ -- Jeremy Bicha <jbicha@debian.org>  Mon, 11 Sep 2017 19:55:40 -0400
+
+template-glib (3.25.92-1) unstable; urgency=medium
+
+  * New upstream release
+  * debian/copyright: Remove obsolete comment (Closes: #873619)
+
+ -- Jeremy Bicha <jbicha@debian.org>  Tue, 05 Sep 2017 19:58:15 -0400
+
+template-glib (3.25.3-1) unstable; urgency=low
+
+  * Initial release (Closes: #871684)
+
+ -- Jeremy Bicha <jbicha@ubuntu.com>  Thu, 20 Jul 2017 18:48:27 -0400
